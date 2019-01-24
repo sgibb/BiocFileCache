@@ -59,7 +59,7 @@ bfc <- BiocFileCache(path, ask = FALSE)
 If the path location exists and has been utilized to store files previously, the
 previous object will be loaded with any files saved to the cache. If the path
 location does not exist the user will be prompted to create the new directory.
-If the session is not interactive to promt the user or the user decides not to
+If the session is not interactive to prompt the user or the user decides not to
 create the directory a temporary directory will be used.
 
 Some utility functions to examine the cache are:
